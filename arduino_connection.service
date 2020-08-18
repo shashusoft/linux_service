@@ -1,0 +1,9 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/home/atish/dev/projects/linux_service/linux_service_script.sh
+
+[Install]
+WantedBy=default.target
+
