@@ -1,0 +1,6 @@
+[Unit]
+Description=test job
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/atish/dev/projects/linux_service/test_service_script.sh
